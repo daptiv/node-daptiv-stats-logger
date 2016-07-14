@@ -1,6 +1,6 @@
 {
   "name": "node-daptiv-stats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides a universal interface for logging stats.",
   "main": "dist/src/daptiv-stats-logger.js",
   "typings": "dist/src/daptiv-stats-logger.d.ts",
@@ -38,8 +38,7 @@
     "url": "https://github.com/daptiv/node-daptiv-stats/issues"
   },
   "homepage": "https://github.com/daptiv/node-daptiv-stats#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "conventional-changelog-cli": "^1.1.1",
     "gulp": "^3.9.1",
