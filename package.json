@@ -1,0 +1,53 @@
+{
+  "name": "node-daptiv-stats",
+  "version": "0.0.1",
+  "description": "Provides a universal interface for logging stats.",
+  "main": "dist/src/daptiv-stats-logger.js",
+  "typings": "dist/src/daptiv-stats-logger.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run typings && tsc -p . --module commonjs --declaration --outDir dist/",
+    "changelog": "conventional-changelog -p node-daptiv-stats -i CHANGELOG.md -s -r 0",
+    "changelog:git:add": "git add CHANGELOG.md",
+    "changelog:git:commit": "git commit -m 'docs(changelog): update changelog'",
+    "clean": "rm -rf ./dist",
+    "postversion": "git push && git push --tags",
+    "prepublish": "npm run clean && npm run build",
+    "test": "npm run build && gulp test",
+    "typings": "typings install",
+    "version": "npm run changelog && npm run changelog:git:add && npm run changelog:git:commit",
+    "watch": "npm run typings && gulp watch"
+  },
+  "engines": {
+    "node": ">=4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daptiv/node-daptiv-stats.git"
+  },
+  "files": [
+    "dist",
+    "src",
+    "typings"
+  ],
+  "keywords": [
+    "metrics",
+    "statsd"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daptiv/node-daptiv-stats/issues"
+  },
+  "homepage": "https://github.com/daptiv/node-daptiv-stats#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.3.0",
+    "gulp-tslint": "^5.0.0",
+    "jasmine": "^2.4.1",
+    "tslint": "^3.8.1",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
