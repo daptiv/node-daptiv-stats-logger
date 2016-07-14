@@ -1,6 +1,6 @@
 {
   "name": "node-daptiv-stats",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "dependencies": {
     "abbrev": {
       "version": "1.0.9",
