@@ -1,6 +1,6 @@
 {
-  "name": "node-daptiv-stats",
-  "version": "0.0.3",
+  "name": "node-daptiv-stats-logger",
+  "version": "0.0.0",
   "description": "Provides a universal interface for logging stats.",
   "main": "dist/src/daptiv-stats-logger.js",
   "typings": "dist/src/daptiv-stats-logger.d.ts",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daptiv/node-daptiv-stats.git"
+    "url": "git+https://github.com/daptiv/node-daptiv-stats-logger.git"
   },
   "files": [
     "dist",
@@ -35,9 +35,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daptiv/node-daptiv-stats/issues"
+    "url": "https://github.com/daptiv/node-daptiv-stats-logger/issues"
   },
-  "homepage": "https://github.com/daptiv/node-daptiv-stats#readme",
+  "homepage": "https://github.com/daptiv/node-daptiv-stats-logger#readme",
   "dependencies": {},
   "devDependencies": {
     "conventional-changelog-cli": "^1.1.1",
