@@ -43,7 +43,7 @@
     "conventional-changelog-cli": "^1.1.1",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.3.0",
-    "gulp-tslint": "^5.0.0",
+    "gulp-tslint": "^6.0.0",
     "jasmine": "^2.4.1",
     "tslint": "^3.8.1",
     "typescript": "^1.8.10",

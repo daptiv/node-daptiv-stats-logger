@@ -7,8 +7,10 @@ var srcGlob = ['src/**/*.ts', 'tests/**/*.ts'];
 
 gulp.task('lint', () => {
   return gulp.src(srcGlob)
-        .pipe(tslint())
-        .pipe(tslint.report('verbose'));
+        .pipe(tslint({
+          formatter: 'verbose'
+        }))
+        .pipe(tslint.report());
 });
 
 gulp.task('test', () => {
