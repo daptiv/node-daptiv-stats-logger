@@ -1,9 +1,11 @@
-<a name="0.0.2"></a>
-## 0.0.2 (2016-07-15)
+<a name="0.1.0"></a>
+# 0.1.0 (2016-07-15)
 
+* 0.0.2 ([7ec1e8e](https://github.com/daptiv/node-daptiv-stats-logger/commit/7ec1e8e))
 * Lint the TypeScript as part of gulp test task ([8e72e64](https://github.com/daptiv/node-daptiv-stats-logger/commit/8e72e64))
 * Upgrade typings for jasmine and node ([15e653f](https://github.com/daptiv/node-daptiv-stats-logger/commit/15e653f))
 * upgraded gulp-tslint to v6 from deprecated version ([09b0613](https://github.com/daptiv/node-daptiv-stats-logger/commit/09b0613))
+* docs(changelog): update changelog ([2dadff5](https://github.com/daptiv/node-daptiv-stats-logger/commit/2dadff5))
 
 
 
