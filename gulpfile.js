@@ -13,7 +13,7 @@ gulp.task('lint', () => {
         .pipe(tslint.report());
 });
 
-gulp.task('test', () => {
+gulp.task('test', ['lint'], () => {
     gulp.src('dist/tests/**/*.js')
         .pipe(jasmine());
 });
