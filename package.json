@@ -1,6 +1,6 @@
 {
   "name": "node-daptiv-stats-logger",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Provides a universal interface for logging stats.",
   "main": "dist/src/daptiv-stats-logger.js",
   "typings": "dist/src/daptiv-stats-logger.d.ts",
